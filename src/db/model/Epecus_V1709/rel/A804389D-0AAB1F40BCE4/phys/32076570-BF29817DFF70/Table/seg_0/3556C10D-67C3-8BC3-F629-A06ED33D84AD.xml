@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="STOCK_MGR" directorySegmentName="seg_0" id="3556C10D-67C3-8BC3-F629-A06ED33D84AD">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<schemaObject>412AB715-49E5-5CC2-B029-997A0C2814E0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UPDATE_BY" id="1D8E62BE-8CDB-C2A8-D3B2-01D23A4BE842">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DT" id="2C20730C-8452-C716-A07C-D5A6FA8A5AEC">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_DT" id="55FCDBBF-FC55-0A7E-C780-8DB922D19287">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STOCK_MGR_ID" id="631CF640-FE07-9E35-7126-7A532C8063C1">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STOCK" id="64A53AC8-CF8F-DDC6-EB16-D1C1BD6E3927">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORP_NAME" id="912C56C4-99EE-4B72-1FB6-94850494D04B">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_BY" id="AD4AD64B-56DF-9103-0803-65C41EFA94EB">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FREQ_CD" id="CF675517-6A7A-B312-97BD-55DFF4B9FA28">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STOCK_MGR_PK" id="B0A64843-A10C-BE58-9CB9-C0AE5178EBCD">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

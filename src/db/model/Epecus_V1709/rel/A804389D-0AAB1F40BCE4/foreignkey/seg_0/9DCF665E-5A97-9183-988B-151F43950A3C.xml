@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9DCF665E-5A97-9183-988B-151F43950A3C" containerWithKeyObject="FDBE953B-BDA6-F8B8-7034-A5F542DCE6AC" localFKIndex="45E2953B-9DBB-DDE9-066F-415DD958BE4D" name="PASSWORD_USER_FK">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:11:29 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<referredTableLongName>EPECUS.USER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>43EC52B4-BD04-6615-5D0D-AA2B816D16DC</referredTableID>
+<keyObject>37CEA69E-02B9-697B-96D3-7FCE52554B34</keyObject>
+<referredKeyID>37CEA69E-02B9-697B-96D3-7FCE52554B34</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>USER_SEQ_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

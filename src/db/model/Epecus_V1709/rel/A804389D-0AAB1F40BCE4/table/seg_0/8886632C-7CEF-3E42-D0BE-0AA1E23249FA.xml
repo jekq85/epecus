@@ -1,0 +1,519 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8886632C-7CEF-3E42-D0BE-0AA1E23249FA" schemaObject="412AB715-49E5-5CC2-B029-997A0C2814E0" name="STOCK_DATA">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:10:06 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STOCK_ID" id="36172324-5DCA-13E6-D377-01496128E4C2">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK" id="A9146E19-6B95-822A-61F4-DDA05BC90913">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPTURE_DT" id="029FA749-04C0-E950-9145-EC7CF1CFC558">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPTURE_YEAR" id="A4629573-4839-031E-D504-F8EE93A9E2B0">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPTURE_MONTH" id="7050469D-198D-8582-62EF-58F25F2B4124">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPTURE_WEEK" id="F50E170E-9387-DFB5-378D-0F7B0726B58A">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPTURE_DAY" id="906FE31B-8567-7E83-5EE1-0E4156A79E9C">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAPTURE_HR" id="ACD63AFE-0708-B2E3-2CF6-7AA27080D45C">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="976D9B6F-0A1E-FD68-A9B5-D7B11CB69BBF">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE_HR_LO" id="74DAAA37-EE16-4433-2ECD-DAA42E0E8C8E">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE_HR_HI" id="CFDB1039-80B7-C537-0BCC-18F89F590A1A">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREV_CLOSE" id="F56E267F-D99B-86D5-DF89-2732C519BF76">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPEN" id="C66D798D-7D44-3BC9-4AC8-8DE8C27C6C07">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOL" id="8E646868-CABC-B24C-8B65-EB4C918C0889">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOL_AVG" id="74C32C45-5A88-9865-E559-CCAFDD5B51EF">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIV_YLD" id="248C03E0-707E-4576-3CD2-C280D94446AB">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIV_X_DT" id="3F9770DC-44EF-4C53-46AC-07CF178CB1F0">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PE" id="6CCCB29D-EAE3-8255-8396-B8FF520C1251">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPS" id="5744C031-0ADE-3219-FCCF-3D4FAD063662">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BETA" id="8C80B0FF-BA72-1EEA-8578-6398F752647E">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNN_1YR_LO" id="474C75CC-CEA1-C828-2426-5760EBA470C6">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNN_1YR_MD" id="BD38518A-DCCF-801B-C899-282A9AAB6397">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNN_1YR_HI" id="42E3485E-F585-B49B-0FDE-BD68C3610D5D">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WSTJ_1YR_LO" id="34E00AB8-89BB-59EB-3DAF-5C7F64941233">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WSTJ_1YR_MD" id="E275B766-11EC-33E8-EDE9-5A27BC822916">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WSTJ_1YR_HI" id="F319675D-0CB0-C06D-AE01-0D842FD6F761">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FITI_1YR_LO" id="C1229921-79A9-1193-81D0-AC2BA31DD825">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FITI_1YR_MD" id="A0CFD002-D8C5-D6FE-47E1-DF6A174A6548">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FITI_1YR_HI" id="565C910B-5E25-F398-7AB0-3209BD78740F">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="YHOO_1YR" id="BCCBD656-2D13-BC1D-37DA-32443DAC905F">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NASD_1YR" id="305DE427-D4FD-FFC7-21B3-61EBDA0D2925">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MKTW_1YR" id="8392326F-47CE-C917-C1A9-CFEF6E0BB0DD">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LO_52" id="202A3265-D049-FE34-7FC0-D71D5944018E">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HI_52" id="DA22F47E-72A3-6835-60C4-EE904EE9BC4D">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MKT_CAP" id="6AE4A250-1C5B-4163-7A37-D2446F4685F7">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:23:30 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHARES_OUTSTND" id="875B613D-6564-39C1-63EA-36075EBF816E">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:30:36 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,20,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_BY" id="9D1B0249-F6AF-DD82-0635-4EC912140218">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:30:36 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DT" id="5A80F10F-7DA1-968A-DD97-801D6E9938C7">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:30:36 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_BY" id="3DB51B54-408D-5B89-2C04-49638936736F">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:30:36 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DT" id="6E1062BC-2EC9-6146-8C01-385BE3B7E1DB">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:30:36 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="359ECB73-F5AD-2650-8463-F387543019E0" name="STOCK_DATA_PK">
+<createdBy>user</createdBy>
+<createdTime>2017-09-04 04:12:11 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36172324-5DCA-13E6-D377-01496128E4C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

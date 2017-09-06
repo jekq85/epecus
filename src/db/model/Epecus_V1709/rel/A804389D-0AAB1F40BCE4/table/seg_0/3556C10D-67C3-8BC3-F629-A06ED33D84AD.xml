@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3556C10D-67C3-8BC3-F629-A06ED33D84AD" schemaObject="412AB715-49E5-5CC2-B029-997A0C2814E0" name="STOCK_MGR">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:12:28 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="STOCK_MGR_ID" id="631CF640-FE07-9E35-7126-7A532C8063C1">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STOCK" id="64A53AC8-CF8F-DDC6-EB16-D1C1BD6E3927">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORP_NAME" id="912C56C4-99EE-4B72-1FB6-94850494D04B">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FREQ_CD" id="CF675517-6A7A-B312-97BD-55DFF4B9FA28">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_BY" id="1D8E62BE-8CDB-C2A8-D3B2-01D23A4BE842">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATE_DT" id="2C20730C-8452-C716-A07C-D5A6FA8A5AEC">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_BY" id="AD4AD64B-56DF-9103-0803-65C41EFA94EB">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREATE_DT" id="55FCDBBF-FC55-0A7E-C780-8DB922D19287">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0A64843-A10C-BE58-9CB9-C0AE5178EBCD" name="STOCK_MGR_PK">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:14:59 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="631CF640-FE07-9E35-7126-7A532C8063C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

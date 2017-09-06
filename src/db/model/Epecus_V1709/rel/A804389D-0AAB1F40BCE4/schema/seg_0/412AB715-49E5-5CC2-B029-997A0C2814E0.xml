@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="EPECUS" directorySegmentName="seg_0" id="412AB715-49E5-5CC2-B029-997A0C2814E0">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:15:49 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<ordsAlias>schema_1</ordsAlias>
+</SchemaObject>

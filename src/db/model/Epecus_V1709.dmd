@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Epecus_V1709" id="18A81248-B23B-69F8-8E05-372843ED44D1" version="3.5">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:02:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>18A81248-B23B-69F8-8E05-372843ED44D1</designId>
+</OSDM_Design>

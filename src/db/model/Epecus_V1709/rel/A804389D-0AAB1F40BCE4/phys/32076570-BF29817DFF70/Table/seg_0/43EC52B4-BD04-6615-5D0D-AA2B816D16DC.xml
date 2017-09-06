@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USER" directorySegmentName="seg_0" id="43EC52B4-BD04-6615-5D0D-AA2B816D16DC">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<schemaObject>412AB715-49E5-5CC2-B029-997A0C2814E0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CREATE_DT" id="0B854E0D-4668-320F-E2A6-1C759EDD95CE">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOGIN_CNT" id="14ECABD1-E531-1803-6635-920FFCBA7A3A">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_SEQ_ID" id="184635A7-6D76-05F7-4603-ADC05B5D4CFE">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_LOGIN_DT" id="25B4F4B0-67B1-B455-3808-DA612400C3C8">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_CD" id="3C52ADAD-CA7E-0BF3-3153-DDEA2E8D4CEF">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="4E745767-E366-8192-E7BA-5CDFCFEF1975">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_EMAIL" id="54372709-9072-FF4E-4903-A6AD107DAF55">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_DT" id="5FBB3A1A-DA22-B972-0962-0452EAE015D0">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATE_BY" id="91165854-3ED8-AD1A-C3D7-B69EC56F2D2F">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS_CD" id="9802EB88-9FE2-E976-3A09-13F26762084A">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_NAME" id="C6241E42-5786-403A-3FE2-500F7E724992">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UPDATE_BY" id="F4EF1C9B-FFB8-DEB0-4868-78EF3C1AF25B">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USER_PK" id="37CEA69E-02B9-697B-96D3-7FCE52554B34">
+<createdBy>user</createdBy>
+<createdTime>2017-08-30 03:16:08 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
