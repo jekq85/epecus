@@ -10,17 +10,16 @@
 #===============================================================================
 
 
-PATH_CHK=`echo $1 | sed 's/\/$//g'`
-SQL_PATH="$PATH_CHK/*/*/*"
-VER=$2
+VER=$1
+SQL_PATH="/cygdrive/c/git_local/epecus/src/db/model/sql_export/*$VER/*/*/*"
 NOW=`date +%Y%m%d`
 DDL_PATH="/cygdrive/c/git_local/epecus/src/db/ddl/$VER"
 
 
-if [ $# -ne 2 ]
+if [ $# -ne 1 ]
 then
-	echo "ERROR:  Please pass the SQL Parent Directory and the Release Version!"
-	echo "Example: ./sequence_ddl.sh /path/to/Parent/SQL VYYMM"
+	echo "ERROR:  Please pass the Release Version!"
+	echo "Example: ./sequence_ddl.sh VYYMM"
 	exit
 fi
 
@@ -28,7 +27,7 @@ fi
 
 if [ -d $DDL_PATH ]
 then 
-	:
+	rm $DDL_PATH/*
 else
 	mkdir $DDL_PATH
 fi
@@ -69,7 +68,6 @@ do
 done
 
 
-rm -r $1
 
 
 

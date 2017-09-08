@@ -1,0 +1,1 @@
+ALTER TABLE epecus_users ADD CONSTRAINT user_pk PRIMARY KEY ( user_seq_id );
