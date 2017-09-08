@@ -1,1 +1,0 @@
-ALTER TABLE fin_data ADD CONSTRAINT fin_data_pk PRIMARY KEY ( fin_data_id );

@@ -1,1 +1,0 @@
-ALTER TABLE stock_mgr ADD CONSTRAINT stock_mgr_pk PRIMARY KEY ( stock_mgr_id );

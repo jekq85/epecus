@@ -1,1 +1,0 @@
-ALTER TABLE user_password ADD CONSTRAINT password_pk PRIMARY KEY ( password_seq_id );
