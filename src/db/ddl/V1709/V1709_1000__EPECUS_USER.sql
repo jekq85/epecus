@@ -1,4 +1,4 @@
-CREATE TABLE "USER" (
+CREATE TABLE epecus_user (
     user_seq_id     INTEGER NOT NULL,
     user_id         VARCHAR2(50) NOT NULL,
     user_cd         VARCHAR2(1),

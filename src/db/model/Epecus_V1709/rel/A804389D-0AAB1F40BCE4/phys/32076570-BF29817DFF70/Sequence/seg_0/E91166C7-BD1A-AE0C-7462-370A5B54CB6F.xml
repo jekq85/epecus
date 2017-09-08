@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="PASSWORD_SEQ_ID_SEQ" directorySegmentName="seg_0" id="E91166C7-BD1A-AE0C-7462-370A5B54CB6F">
+<createdBy>user</createdBy>
+<createdTime>2017-09-07 00:06:05 UTC</createdTime>
+<ownerDesignName>Epecus_V1709</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>99999999999999999999</maxValue>
+<startWith>1</startWith>
+</SequenceOraclev10g>

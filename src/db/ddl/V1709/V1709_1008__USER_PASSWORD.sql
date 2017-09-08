@@ -1,4 +1,4 @@
-CREATE TABLE password (
+CREATE TABLE user_password (
     password_seq_id   INTEGER NOT NULL,
     user_seq_id       INTEGER NOT NULL,
     password          VARCHAR2(50) NOT NULL,

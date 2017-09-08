@@ -39,9 +39,9 @@ FUNC_SEQ()
 {
 for line in `ls`
 do
-	let "SEQ=SEQ+1"	
-	echo "Moved:  $line  to: ${VER}_${SEQ}__$line"
 	cp $line $DDL_PATH/${VER}_${SEQ}__$line
+	echo "Moved:  $line  to: ${VER}_${SEQ}__$line"
+	let "SEQ=SEQ+1"
 done
 }
 

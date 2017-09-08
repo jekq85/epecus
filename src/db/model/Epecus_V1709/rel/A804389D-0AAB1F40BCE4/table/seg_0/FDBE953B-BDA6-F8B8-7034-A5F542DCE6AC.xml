@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDBE953B-BDA6-F8B8-7034-A5F542DCE6AC" schemaObject="412AB715-49E5-5CC2-B029-997A0C2814E0" name="PASSWORD">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDBE953B-BDA6-F8B8-7034-A5F542DCE6AC" schemaObject="412AB715-49E5-5CC2-B029-997A0C2814E0" name="USER_PASSWORD">
 <createdBy>user</createdBy>
 <createdTime>2017-08-30 03:08:02 UTC</createdTime>
 <ownerDesignName>Epecus_V1709</ownerDesignName>
