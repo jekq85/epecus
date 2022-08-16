@@ -1,6 +1,6 @@
 CREATE TABLE stock_data (
     stock_id         INTEGER NOT NULL,
-    stock            VARCHAR2(20),
+    stock            VARCHAR(20),
     capture_dt       DATE,
     capture_year     INTEGER,
     capture_month    INTEGER,
